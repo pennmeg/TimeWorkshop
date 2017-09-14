@@ -1,17 +1,20 @@
-h1 {
+body {
   text-align: center;
+}
+
+h1, h2 {
   margin: 10px auto;
   font-family: 'Lora', serif;
+}
+
+h1 {
   font-weight: 700;
   font-style: italic;
-  font-size: 32px;
+  font-size: 34px;
   color: #f874d6;
 }
 
 h2 {
-  text-align: center;
-  margin: 10px auto;
-  font-family: 'Lora', serif;
   font-weight: 400;
   font-size: 24px;
   text-decoration: underline;
@@ -22,19 +25,23 @@ li, p, h3 {
   font-size: 18px;
 }
 
-h3 {
-  text-transform: uppercase;
-  margin: 8px auto;
+h3, p {
+  margin: 8px;
 }
 
-p {
-  margin: 8px;
+h3 {
+  text-transform: uppercase;
+}
+
+#cookie p, #milk p {
+  font-style: italic;
 }
 
 #menu {
   background-color: #D7BAFE;
   padding: 10px;
 }
+
 /* === wrapper === */
 
 .wrapper {
@@ -56,22 +63,35 @@ p {
   width: 30%;
 }
 
+/* == footer and social == */
+
 #social {
-  background-color: #f874d6;
   padding: 10px;
+  background-color: #f874d6;
   text-align: center;
 }
 
+#social p {
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+}
+
+#social a:hover {
+  color: #D7BAFE;
+}
+
+#social a {
+  padding: 3px;
+  color: white;
+}
+
 footer {
-  background-color: #debad6;
-  padding: 8px;
+  padding: 2px;
+  background-color: #eee;
   text-align: center;
 }
 
 footer p {
-  font-size: 12px;
-}
-
-#ig, #fb {
-  color: white;
+  font-size: 10px;
 }
