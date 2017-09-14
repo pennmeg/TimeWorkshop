@@ -95,3 +95,46 @@ footer {
 footer p {
   font-size: 10px;
 }
+
+/* == Modal == */
+
+.modal h2 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #eee;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 4px solid #f874d6;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
