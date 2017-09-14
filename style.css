@@ -1,8 +1,77 @@
-
-/* ======= ======= ======= general ======= ======= ======= */
-html, body {
-    height: 100%;
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 32px;
+  color: #f874d6;
 }
-body {
-    font-family: "Ariel", sans-serif;
+
+h2 {
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+li, p, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 8px auto;
+}
+
+p {
+  margin: 8px;
+}
+
+#menu {
+  background-color: #D7BAFE;
+  padding: 10px;
+}
+/* === wrapper === */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+
+#overview {
+  width: 60%;
+}
+
+#milk {
+  width: 30%;
+}
+
+#cookie {
+  width: 30%;
+}
+
+#social {
+  background-color: #f874d6;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #debad6;
+  padding: 8px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+#ig, #fb {
+  color: white;
 }
