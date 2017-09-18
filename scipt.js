@@ -7,9 +7,11 @@ var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 
 function onTimerElapsed() {
-        modal.style.display = "block";
+  console.log("==onTimerElapsed==");
+    modal.style.display = "block";
 };
 
 $('span').click( function(){
-  modal.style.display = "none";
+  console.log("--click span--");
+    modal.style.display = "none";
 })
